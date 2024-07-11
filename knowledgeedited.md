@@ -56,6 +56,7 @@
 - border-top-left-radius, border-top-right-radius, border-bottom-left-radius, border-bottom-right-radius
 - _line-height_: Khoảng cách giữa các dòng chữ
 - Khi những thẻ inline nằm cạnh nhau thì nó sẽ nằm trên 1 hàng, ngược lại những thẻ block thì nó sẽ tạo ra hàng mới
+chiều cao của chữ = số dòng x font-size x line-height
 - _display_: block, inline, inline-block, none, flex, grid
 - `block` : Biến thành thẻ block
 - `inline` : Biến thành thẻ inline, nó sẽ bị hạn chế vài thuộc tính CSS liên quan tới box-sizing như là padding-top, padding-bottom, margin-top, margin-bottom
