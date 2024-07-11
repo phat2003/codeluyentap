@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "PT Sans", sans-serif;
+    
+}
+.contact {
+    background-color: red;
+    padding: 0px 10px ;
+    .icon {
+        margin: 10px;
+    .link-icon {
+        .link-discord{
+            text-decoration: none;
+        }
+        .link-zalo {
+            text-decoration: none;
+        }
+    .icon-discord {
+        width: 50px;
+        height: 46px;
+    }
+    .icon-zalo {
+        width: 50px;
+        height: 46px;
+    }
+    }
+    }
+}
+    
+
+
+
+.content {
+    .gamefree-epic {
+        color: white;
+        padding: 5px;
+        background-color: black;
+        text-decoration: none;
+    }
+    .image-epic {
+        width: 25px;
+        height: 15px;
+    }
+}

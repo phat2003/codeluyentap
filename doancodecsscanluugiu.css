@@ -1,0 +1,32 @@
+* {/* ở đây nên có đoạn code này để css reset về mặc định vì mỗi trình duyệt mỗi khác*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body  {
+    font-family: "Poppins", sans-serif; /* chỗ này là font chữ, lấy trên google fonts*/
+    font-weight: 500;/*độ đậm nhạt của font*/
+}
+
+.tour {
+    width: 370px; /* chiều rộng*/
+    height: 420px;/*chiều cao*/
+    /*
+    height :500px;
+    width : 450px;
+    */
+    /* padding: 40px; có thể hiểu là 1 vật bên trong cái hộp thì khoảng trống bên trong cái hộp đó là padding. */ 
+    background-color: white;/* màu của nền*/
+}
+
+.tour-content {
+    /* padding: top right bottom left*//*riêng từng cái trên dưới trái phải*/
+    padding: 20px 20px 14px 20px;
+    /* padding: top right-left bottom*//*số đầu trên, hai số kế trái-phải*/
+    padding: 20px 20px 14px;
+    /* padding: top-bottom right-left*//*số đầu trên dưới, số thứ 2 trái phải*/
+    padding: 14px 20px;
+    /* padding: top-right-bottom-left*//*1 số bao gồm toàn bộ trên dưới trái phải*/
+    padding: 20px;
+}
