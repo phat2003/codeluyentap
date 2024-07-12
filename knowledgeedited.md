@@ -58,8 +58,8 @@
 - Khi những thẻ inline nằm cạnh nhau thì nó sẽ nằm trên 1 hàng, ngược lại những thẻ block thì nó sẽ tạo ra hàng mới
 chiều cao của chữ = số dòng x font-size x line-height(khoảng cách giữa các dòng)
 - _display_: block, inline, inline-block, none, flex, grid
-- `block` : Biến thành thẻ block
-- `inline` : Biến thành thẻ inline, nó sẽ bị hạn chế vài thuộc tính CSS liên quan tới box-sizing như là padding-top, padding-bottom, margin-top, margin-bottom
+- `block` : Biến thành thẻ block (thẻ block là thẻ sẽ tự động xuống dòng khi có thẻ mới)
+- `inline` : Biến thành thẻ inline, nó sẽ bị hạn chế vài thuộc tính CSS liên quan tới box-sizing như là padding-top, padding-bottom, margin-top, margin-bottom (thẻ inline là thẻ sẽ nằm ở trên 1 dòng ,hàng nếu dòng,hàng đó chưa có full)
 - `inline-block` : Biến thành thẻ inline-block,
   là sự kết hợp giữa inline và block, khi các thẻ có thuộc tính inline-block nó sẽ kế thừa đặc tính của inline tức là nằm cạnh nhau thì sẽ nằm trên 1 hàng, có độ rộng bằng nội dung mà nó chứa, không bị hạn chế CSS
 - `none`: Ẩn luôn, ko thấy ko nhấn được
