@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    background-color: #f1f1f1;
+}
+
+h1 {
+    color: black;
+    
+}
+
+.welcometosite {
+    padding: 70px 450px;
+    height: 200px;
+    background-color: #fff;
+}
+
+.site-button {
+    width: 199px;
+    height: 39px;
+    padding: 10px 55px;
+    
+    margin: 10px;
+}
+
+.button-home {
+    background-color: blue;
+    
+    text-decoration: none;
+}
+
+.button-characters {
+    background-color: blue;
+    
+    text-decoration: none;
+}
+
+.link-characters {
+    color: white;
+}
+
+.link-home {
+    color: white;
+}

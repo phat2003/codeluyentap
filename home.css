@@ -6,4 +6,23 @@
 
 body {
     font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    background-color: #f1f1f1;
 }
+.soukaku {
+    width: 370px;
+    height: auto;
+    background-color: #fff;
+}
+.soukaku-icon {
+    width: 370px;
+    height: 246px;
+}
+h3 {
+    font-weight: 700;
+    font-size: 15px;
+}
+.info-soukaku {
+    text-decoration: none;
+}
+
