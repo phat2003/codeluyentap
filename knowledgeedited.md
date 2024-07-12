@@ -15,7 +15,7 @@
 - _h3_: Dùng được nhiều, thường được dùng cho những block nhỏ
 - h4,h5,h6: Tương ứng cho những tiêu đề nhỏ hơn
 - _a_: Là thẻ inline, chắc chắn là dùng cho liên kết, nó có 3 thuộc tính hay dùng `href`, `target`, và `rel`
-- Khi dùng `target` có giá trị là `_blank` thì thẻ a nên thêm thuộc tính `rel="noopener noreferrer"`
+- Khi dùng `target` có giá trị là `_blank` thì thẻ a nên thêm thuộc tính `rel="noopener noreferrer"` (ở đây khi thêm thuộc tính là target="_blank" thì khi nhấn vào đường dẫn của thẻ a sẽ tự động mở tab mới, còn bình thường thì sẽ mở link khác ở tab đó luôn)
 - Fonts chữ:
 - 1. Sẽ có sẵn ở Google Fonts
 - 2. Không có ở Google Fonts mà được mua, tải trên mạng về máy
