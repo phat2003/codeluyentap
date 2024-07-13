@@ -12,46 +12,56 @@ body {
 
 h1 {
     color: black;
-    font-size: 39px;
     
 }
 
 .welcometosite {
-    /* padding: 70px 450px; */
-    padding-top: 70px;
-    padding-bottom: 70px;
-    padding-left: 408px;
+    text-align: center;
+    padding-top: 80px;
     height: 200px;
     background-color: #fff;
 }
 
-.site-button {
+.content {
+    display: flex;
+}
+
+.box-button {
     background-color: #fff;
-    width: 199px;
+    width: 300px;
     padding: 10px 55px;
 }
 
+
+
 .button-home {
-    padding: 8px 20px;
+    text-align: center;
+    padding-top: 17px;
     background-color: blue;
     text-decoration: none;
     margin-bottom: 20px;
     border-radius: 10px;
+    width: 155px;
+    height: 55px;
 }
 
 .button-characters {
-    padding: 8px 5px;
+    text-align: center;
+    padding-top: 17px;
     background-color: blue;
     text-decoration: none;
     border-radius: 10px;
+    width: 155px;
+    height: 55px;
 }
 
-.link-characters {
+.text-home {
     color: white;
     text-decoration: none;
+    
 }
 
-.link-home {
+.text-characters {
     color: white;
     text-decoration: none;
 }

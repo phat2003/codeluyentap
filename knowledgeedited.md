@@ -49,8 +49,8 @@
 - _height_: Chiều cao
 - _border_: Viền (lưu ý: khi border lớn hơn width và height thì w,h = 0,hai chỉ số padding và border tăng bao nhiêu thì w và h giảm bấy nhiêu)
 - _shorthand_: (CSS shorthand) Viết rút gọn
-- _padding_: Không thể dùng số âm , không có giá trị `auto` (có thể hiểu là 1 vật nằm trong cái hộp thì khoảng trống còn lại bên trong cái hộp đó là padding, lưu ý: khi padding lớn hơn width và height thì w,h = 0,hai chỉ số padding và border tăng bao nhiêu thì w và h giảm bấy nhiêu)
-- _margin_: Khoảng cách giữa các khối với nhau, Có thể dùng số âm, có giá trị `auto`
+- _padding_: khoảng cách từ viền của khối này tới khối bên trong của khối đó. Không thể dùng số âm , không có giá trị `auto` (có thể hiểu là 1 vật nằm trong cái hộp thì khoảng trống còn lại bên trong cái hộp đó là padding, lưu ý: khi padding lớn hơn width và height thì w,h = 0,hai chỉ số padding và border tăng bao nhiêu thì w và h giảm bấy nhiêu)
+- _margin_: Khoảng cách giữa các khối với nhau,giữa khối này tới khối khác, Có thể dùng số âm, có giá trị `auto`
 - _text-decoration_: Gạch dưới của thẻ a, `none`, `underline`, `overline`,` line-through`
 - _border-radius_: Độ bo góc của khối, càng lớn thì càng bo góc, nếu hình vuông mà có bo góc lớn thì sẽ tạo ra hình tròn, còn nếu là hình chữ nhật có bo góc lớn thì sẽ tạo ra hình elip
 - border-top-left-radius, border-top-right-radius, border-bottom-left-radius, border-bottom-right-radius

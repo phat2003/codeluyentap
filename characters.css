@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -16,62 +17,71 @@ h1 {
 }
 
 .welcometosite {
-    padding: 80px 636px;
+    text-align: center;
+    padding-top: 80px;
     height: 200px;
     background-color: #fff;
 }
 
 .content {
     display: flex;
+    
 }
 
 .box-button {
     background-color: #fff;
     width: 300px;
     padding: 10px 55px;
+    margin-right: 20px;
+    
 }
 
 
 
 .button-home {
-    padding: 8px 20px;
+    text-align: center;
+    padding-top: 17px;
     background-color: blue;
     text-decoration: none;
     margin-bottom: 20px;
     border-radius: 10px;
+    width: 155px;
+    height: 55px;
 }
 
 .button-characters {
-    padding: 8px 5px;
+    text-align: center;
+    padding-top: 17px;
     background-color: blue;
     text-decoration: none;
     border-radius: 10px;
+    width: 155px;
+    height: 55px;
 }
 
-.link-home {
+.text-home {
     color: white;
     text-decoration: none;
     
 }
 
-.link-characters {
+.text-characters {
     color: white;
     text-decoration: none;
 }
 
 .row-characters {
     color: white;
+    display: inline;
     
 }
 
-.row-1 {
-    display: flex;
-    
+.img-character {
+    display: block;
 }
 
-.row-2 {
-    display: flex;
-    
+.title-image {
+    display: block;
 }
 
 .soukaku-icon {
@@ -79,24 +89,7 @@ h1 {
     height: 246px;
 }
 
-.box-1 {
-    width: 370px;
-    height: auto;
-    background-color: #fff;
-    margin: 0 10px;
-}
-.box-2 {
-    width: 370px;
-    height: auto;
-    background-color: #fff;
-    margin: 0 10px;
-}
-.box-3 {
-    width: 370px;
-    height: auto;
-    background-color: #fff;
-    margin: 0 10px;
-}
+
 
 .info-characters {
     width: max-content;
@@ -104,3 +97,6 @@ h1 {
     background-color: blue;
     text-decoration: none;
 }
+
+
+
