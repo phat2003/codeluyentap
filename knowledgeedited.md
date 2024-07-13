@@ -67,6 +67,15 @@ chiều cao của chữ = số dòng x font-size x line-height(khoảng cách gi
 - _min-width_: Độ rộng tối thiểu, ví dụ 100px -> >= 100px
 - _max-width_: Độ rộng tối đa, ví dụ 100px -> <= 100px (nên sử dụng max-width vì chúng sẽ giúp giao diện co giãn linh hoạt khi mở trang web trên các trình duyệt và thuyết bị khác nhau)
 - _flexbox_: Áp dụng thuộc tính display: flex vào phần tử mình muốn dàn layout
+- _flex-direction: row_;/*hiển thị của flex mặc định là ngang(row), có thể chỉnh lại là dọc(column) */
+- _align-items: stretch_; /*align-items mặc định là stretch, tác dụng của dòng này là kéo các cột cao bằng nhau khi dùng flex.
+    nếu flex set là row thì làm các cột có chiều cao bằng nhau.
+    nếu flex set là column thì làm cho các cột có chiều rộng bằng nhau.
+    (dòng này có thể hiểu nôm na là ví dụ nếu có 3 cột có nội dung giống nhau nhưng có 1 cột có nội dung ít hơn 2 khối còn lại thì chiều cao/độ rộng của cột đó vẫn sẽ bằng với chiều cao/độ rộng của cột còn lại(cột ở đây tạm hiểu là chiều cao/độ rộng của khối)) */
+- _align-items_ : flex-start/flex-end (hai thuộc tính khác của align-items.
+_flex-start_ sẽ căn đẩy các khối lên trên
+_flex-end_ sẽ đẩy các khối dịch xuống
+còn khối nào đủ to, không nhỏ hơn so với các khối khác thì nhìn vào vẫn sẽ y nguyên như vậy)
 - _calc_: Hàm dùng để tính toán, + - \* /, lưu ý là phải có khoảng cách giữa các phép tính
 - _column-gap_: Khoảng trống chiều dọc
 - _row-gap_: Khoảng trống chiều ngang
