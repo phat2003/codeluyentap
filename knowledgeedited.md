@@ -65,7 +65,7 @@ chiều cao của chữ = số dòng x font-size x line-height(khoảng cách gi
 - `none`: Ẩn luôn, ko thấy ko nhấn được
 - `flex`: Dùng rất nhiều hiện nay, nếu master được nó thì code layout vô tư :D
 - _min-width_: Độ rộng tối thiểu, ví dụ 100px -> >= 100px
-- _max-width_: Độ rộng tối đa, ví dụ 100px -> <= 100px
+- _max-width_: Độ rộng tối đa, ví dụ 100px -> <= 100px (nên sử dụng max-width vì chúng sẽ giúp giao diện co giãn linh hoạt khi mở trang web trên các trình duyệt và thuyết bị khác nhau)
 - _flexbox_: Áp dụng thuộc tính display: flex vào phần tử mình muốn dàn layout
 - _calc_: Hàm dùng để tính toán, + - \* /, lưu ý là phải có khoảng cách giữa các phép tính
 - _column-gap_: Khoảng trống chiều dọc
