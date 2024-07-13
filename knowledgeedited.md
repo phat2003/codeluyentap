@@ -72,9 +72,12 @@ chiều cao của chữ = số dòng x font-size x line-height(khoảng cách gi
     nếu flex set là row thì làm các cột có chiều cao bằng nhau.
     nếu flex set là column thì làm cho các cột có chiều rộng bằng nhau.
     (dòng này có thể hiểu nôm na là ví dụ nếu có 3 cột có nội dung giống nhau nhưng có 1 cột có nội dung ít hơn 2 khối còn lại thì chiều cao/độ rộng của cột đó vẫn sẽ bằng với chiều cao/độ rộng của cột còn lại(cột ở đây tạm hiểu là chiều cao/độ rộng của khối)) */
-- _align-items_ : flex-start/flex-end (hai thuộc tính khác của align-items.
-_flex-start_ sẽ căn đẩy các khối lên trên
-_flex-end_ sẽ đẩy các khối dịch xuống
+- _align-items_ : `flex-start`/`flex-end`/`center`/`baseline` (ba thuộc tính khác của align-items.
+`flex-start` sẽ căn đẩy các khối lên trên.
+`flex-end` sẽ đẩy các khối dịch xuống.
+`center` căn giữa.
+`baseline` căn theo chân chữ của dòng chữ đầu tiên.
+).
 còn khối nào đủ to, không nhỏ hơn so với các khối khác thì nhìn vào vẫn sẽ y nguyên như vậy)
 - _calc_: Hàm dùng để tính toán, + - \* /, lưu ý là phải có khoảng cách giữa các phép tính
 - _column-gap_: Khoảng trống chiều dọc
