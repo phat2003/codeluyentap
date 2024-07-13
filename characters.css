@@ -71,13 +71,14 @@ h1 {
 }
 
 .row-characters {
-    color: white;
-    display: inline;
-    
+    color: #fff;
+    display: flex;
+    flex-direction: row;
 }
 
-.img-character {
-    display: block;
+.box-image {
+    width: 370px;
+    height: 246px;
 }
 
 .title-image {
@@ -85,18 +86,33 @@ h1 {
 }
 
 .soukaku-icon {
-    width: 370px;
-    height: 246px;
+    max-width: 370px;
+    max-height: 246px;
 }
 
+.box-content {
+    padding: 10px 53px;
+    background-color: #fff;
+    width: 383px;
+    height: 50px;
+}
 
+.button-info {
+    text-align: center;
+    background-color: blue;
+    width: 270px;
+    height: 30px;
+    border-radius: 10px;
+    padding-top: 5px;
+}
 
 .info-characters {
-    width: max-content;
+    
     color: white;
-    background-color: blue;
+    
     text-decoration: none;
 }
+
 
 
 
