@@ -21,24 +21,37 @@ h1 {
     background-color: #fff;
 }
 
-.site-button {
+.content {
+    display: flex;
+}
+
+.box-button {
     background-color: #fff;
-    width: 199px;
-    
+    width: 300px;
     padding: 10px 55px;
 }
+
+
 
 .button-home {
     padding: 8px 20px;
     background-color: blue;
     text-decoration: none;
     margin-bottom: 20px;
+    border-radius: 10px;
 }
 
 .button-characters {
     padding: 8px 5px;
     background-color: blue;
     text-decoration: none;
+    border-radius: 10px;
+}
+
+.link-home {
+    color: white;
+    text-decoration: none;
+    
 }
 
 .link-characters {
@@ -46,7 +59,48 @@ h1 {
     text-decoration: none;
 }
 
-.link-home {
+.row-characters {
     color: white;
+    
+}
+
+.row-1 {
+    display: flex;
+    
+}
+
+.row-2 {
+    display: flex;
+    
+}
+
+.soukaku-icon {
+    width: 370px;
+    height: 246px;
+}
+
+.box-1 {
+    width: 370px;
+    height: auto;
+    background-color: #fff;
+    margin: 0 10px;
+}
+.box-2 {
+    width: 370px;
+    height: auto;
+    background-color: #fff;
+    margin: 0 10px;
+}
+.box-3 {
+    width: 370px;
+    height: auto;
+    background-color: #fff;
+    margin: 0 10px;
+}
+
+.info-characters {
+    width: max-content;
+    color: white;
+    background-color: blue;
     text-decoration: none;
 }

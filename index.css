@@ -12,11 +12,15 @@ body {
 
 h1 {
     color: black;
+    font-size: 39px;
     
 }
 
 .welcometosite {
-    padding: 70px 450px;
+    /* padding: 70px 450px; */
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 408px;
     height: 200px;
     background-color: #fff;
 }
@@ -24,7 +28,6 @@ h1 {
 .site-button {
     background-color: #fff;
     width: 199px;
-    max-height: ;
     padding: 10px 55px;
 }
 
