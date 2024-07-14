@@ -76,8 +76,7 @@ chiều cao của chữ = số dòng x font-size x line-height(khoảng cách gi
 `flex-start` sẽ căn đẩy các khối lên trên.
 `flex-end` sẽ đẩy các khối dịch xuống.
 `center` căn giữa.
-`baseline` căn theo chân chữ của dòng chữ đầu tiên.
-).
+`baseline` căn theo chân chữ của dòng chữ đầu tiên
 còn khối nào đủ to, không nhỏ hơn so với các khối khác thì nhìn vào vẫn sẽ y nguyên như vậy)
 - _calc_: Hàm dùng để tính toán, + - \* /, lưu ý là phải có khoảng cách giữa các phép tính
 - _column-gap_: Khoảng trống chiều dọc
