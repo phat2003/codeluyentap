@@ -8,4 +8,13 @@
   .full-height-div {
     flex: 1;/*giúp chiều cao của khối full trang web và có thể co giãn linh hoạt, mở rộng để lấp đầy toàn bộ chiều cao của trang web.*/
   }
+
+  /* .full-height-div {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  } *//*chỗ này ghi tạm ko cần thiết lắm*/
+  
   
