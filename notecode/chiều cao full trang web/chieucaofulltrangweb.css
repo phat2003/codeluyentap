@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+    width: 300px;
+    min-height: 100vh;
+    background-color: brown;
+  }
+  
+  .full-height-div {
+    flex: 1;/*giúp chiều cao của khối full trang web và có thể co giãn linh hoạt, mở rộng để lấp đầy toàn bộ chiều cao của trang web.*/
+  }
+  
