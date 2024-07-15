@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body {
@@ -15,53 +16,70 @@ h1 {
     
 }
 
-.welcometosite {
-    text-align: center;
-    padding-top: 80px;
-    height: 200px;
-    background-color: #fff;
-}
 
-.content {
-    display: flex;
-}
 
-.box-button {
+.sidebar {
     background-color: #fff;
     width: 300px;
-    padding: 10px 55px;
+    min-height: 790px;
+    max-height: 790px;
+    padding: 23px 0;
+    display: flex;
+    flex-direction: column;
 }
 
+.container {
+    width: 300px;
+    height: 236px;
+    font-size: 15px;
+    line-height: 22.5px;
+    padding: 0 16px;
+}
 
+.icon-web {
+    width: 121px;
+    height: 121px;
+    border-radius: 4px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 33px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+p {
+    color: #757575;
+    margin: 15px 0px;
+}
 
 .button-home {
+    width: 300px;
+    height: 39px;
     text-align: center;
-    padding-top: 17px;
-    background-color: blue;
     text-decoration: none;
-    margin-bottom: 20px;
     border-radius: 10px;
-    width: 155px;
-    height: 55px;
+    background-color: #ccc;
+    color: #000000;
+    text-align: left;
+    padding: 8px 16px;
 }
 
 .button-characters {
+    width: 300px;
+    height: 39px;
     text-align: center;
-    padding-top: 17px;
-    background-color: blue;
     text-decoration: none;
     border-radius: 10px;
-    width: 155px;
-    height: 55px;
-}
-
-.text-home {
-    color: white;
-    text-decoration: none;
+    background-color: #ccc;
+    color: #000000;
+    text-align: left;
+    padding: 8px 16px;
     
 }
 
-.text-characters {
-    color: white;
-    text-decoration: none;
-}
+
+
+
