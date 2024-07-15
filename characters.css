@@ -19,10 +19,10 @@ h1 {
 
 
 .sidebar {
+    float: left;
     background-color: #fff;
     width: 300px;
-    min-height: 790px;
-    max-height: 790px;
+    min-height: 100vh;
     padding: 23px 0;
     display: flex;
     flex-direction: column;
@@ -56,7 +56,7 @@ p {
 }
 
 .button-home {
-    width: 300px;
+    width: 100%;/*để 100% cho nó bằng độ rộng của lớp cha chứa nó là lớp sidebar*/
     height: 39px;
     text-align: center;
     text-decoration: none;
@@ -68,7 +68,7 @@ p {
 }
 
 .button-characters {
-    width: 300px;
+    width: 100%;
     height: 39px;
     text-align: center;
     text-decoration: none;
@@ -80,7 +80,7 @@ p {
 }
 
 .container-content {
-    margin-left: 300px;
+    float: inline-start;
 }
 
 

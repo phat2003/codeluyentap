@@ -1,0 +1,28 @@
+/* .div1 {
+    float: left;
+    width: 50%;
+    border-color: aqua;
+  }
+  
+.div2 {
+    float: right;
+    width: 50%;
+    border-color: antiquewhite;
+  } */ 
+/*trường hợp trên là chia ra 2 khối mỗi khối 50% */
+  /*=======================*/
+
+  .div1 {
+    float: left;
+  }
+  
+  .div2 {
+    float: inline-start;
+  }
+
+  .div3 {
+    float: inline-start;
+  }
+  
+  /*trường hợp này là bất kỳ khối nào cũng nằm kề nhau*/
+  /*=======================*/
