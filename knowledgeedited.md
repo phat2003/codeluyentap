@@ -79,6 +79,7 @@ chiều cao của chữ = số dòng x font-size x line-height(khoảng cách gi
 `baseline` căn theo chân chữ của dòng chữ đầu tiên
 còn khối nào đủ to, không nhỏ hơn so với các khối khác thì nhìn vào vẫn sẽ y nguyên như vậy)
 - _calc_: Hàm dùng để tính toán, + - \* /, lưu ý là phải có khoảng cách giữa các phép tính
+- _gap_ : giống margin là tạo khoảng cách giữa các phần tử với nhau nhưng gap nếu set ở lớp nào thì sẽ tự chèn 1 khoảng trống vào giữa toàn bộ các phần tử trong lớp đó.
 - _column-gap_: Khoảng trống chiều dọc
 - _row-gap_: Khoảng trống chiều ngang
 - _component_: Mục đích là tái sử dụng và có thể tùy chỉnh 1 chỗ để sử dụng nhiều nơi
