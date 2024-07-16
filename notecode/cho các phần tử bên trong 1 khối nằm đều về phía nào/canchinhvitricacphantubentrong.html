@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ví dụ về justify-content</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-between; /* Căn chỉnh các phần tử con cách đều nhau */
+      width: 100vh; /* Chiều rộng của bộ chứa */
+      border: 1px solid #ccc;
+    }
+
+    .item {
+      
+      background-color: #ccc;
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+  </div>
+</body>
+</html>
+<!-- flex-start: Căn chỉnh các phần tử con ở đầu bộ chứa.
+flex-end: Căn chỉnh các phần tử con ở cuối bộ chứa.
+center: Căn chỉnh các phần tử con ở giữa bộ chứa.
+space-around: Căn chỉnh các phần tử con cách đều nhau, với thêm khoảng trống ở hai đầu bộ chứa.
+space-evenly: Căn chỉnh các phần tử con cách đều nhau, không có khoảng trống ở hai đầu bộ chứa. -->

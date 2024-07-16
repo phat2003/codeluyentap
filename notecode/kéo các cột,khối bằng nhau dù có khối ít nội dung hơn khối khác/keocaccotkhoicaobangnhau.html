@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ví dụ về align-items: stretch</title>
+  <style>
+    .container {
+      display: flex;
+      /* flex-direction: column; *//*Đặt hướng flexbox theo chiều dọc */
+      flex-direction: row;/*Đặt hướng flexbox theo chiều ngang */
+      align-items: stretch; /* Căn chỉnh các phần tử con theo chiều dọc */
+      height: 200px; /* Chiều cao của bộ chứa */
+      border: 1px solid #ccc;
+    }
+
+    .item {
+      flex: 1; /* Các phần tử con sẽ chia đều không gian có sẵn */
+      background-color: #ccc;
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="item">Item 1</div>
+    <div class="item">Item 2</div>
+    <div class="item">Item 3</div>
+  </div>
+</body>
+</html>
