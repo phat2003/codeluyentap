@@ -1,8 +1,6 @@
 _float: inline-start;_ : cho khối đó nằm cạnh 1 khối đã có sẵn (xem ví dụ ở file chocackhoinamcanhnhau)
 _đơn vị vh_ : là thuộc tính làm 1 đơn vị chiếm full màn hình đang nhìn từ trên xuống dưới hoặc từ trái qua phải nếu được set.
-_text-align: `center`;_ : căn giữa chữ của 1 khối hoặc thẻ nào đó.
-                   `left`: căn trái chữ
-                   `right`: căn phải chữ
+- _overflow: hidden;_ những thứ tràn ra ngoài khối sẽ bị ẩn đi (ví dụ như chữ nằm trên 1 hàng nhưng số lượng chữ vượt quá độ rộng cố định của 1 khối thì chữ nào bị tràn ra sẽ bị ẩn đi.)
 - _flex-direction: row_;/*hiển thị của flex mặc định là ngang(row), có thể chỉnh lại là dọc(column) */
 - _align-items: stretch_; /*align-items mặc định là stretch, tác dụng của dòng này là kéo các cột cao bằng nhau khi dùng flex.
     nếu flex set là row thì làm các cột có chiều cao bằng nhau.
