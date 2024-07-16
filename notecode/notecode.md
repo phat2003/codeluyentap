@@ -18,5 +18,5 @@ _justify-content: `center`;_ toàn bộ phần tử bên trong 1 khối sẽ n�
                           `flex-end` toàn bộ phần tử bên trong 1 khối sẽ nằm phải
                           `flex-start` toàn bộ phần tử bên trong 1 khối sẽ nằm trái
                           `space-between` chia đầu cuối: nếu bên trong 1 khối vẫn còn dư chỗ trống do rộng rộng khối đó lớn thì sẽ đẩy các phần tử bên trong chia đều ra 2 phía và chỉ chừa lại 1 khoảng trống ở giữa.
-                          `space-around` 
+                          `space-around` chia đều 2 bên sao cho bên trái, phải, ở giữa đều có khoảng trống.
 xem ví dụ ở folder (cho các phần tử bên trong 1 khối nằm đều về phía nào)
