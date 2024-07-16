@@ -1,0 +1,86 @@
+* {/* ở đây nên có đoạn code này để css reset về mặc định vì mỗi trình duyệt mỗi khác*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body  {
+        font-family: "Inter", sans-serif;
+        font-weight: 500;
+        background-color: #f5f5f5;
+}
+
+.tour {
+    width: 33.33%;/*chỗ này là 1 khối tour sẽ chiếm 33.33% khối cha chứa nó => cả ba khối là 99.9% làm tròn thành 100% của lớp cha*/
+    background-color: white;
+    border-radius: 10px;
+    /*overflow: hidden; khi sử dụng border-radius thì hình ảnh sẽ không bo góc và sẽ bị tràn ra ngoài do hình ảnh bản chất ban đầu nó không bo góc rồi.
+    vậy nên để ép hình ảnh bo góc theo khối luôn thì ta phải thêm thuộc tính overflow: hidden;*/
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: calc(33.33% - 30px);/*ở đây có 3 khối tour dùng chung thuộc tính css này, 3 khối tour mỗi cái có độ rộng là 33.33% khối cha chứa nó là tour list với độ rộng 1170px, thì ba khối tour 33.33% cộng lại là 99.99% làm tròn là 100% độ rộng của lớp cha, chính vì ba khối cộng lại bằng độ rộng lớp cha nên chúng sẽ nằm trên 1 hàng. 
+    do mỗi tour + thêm 30px từ margin-left nên độ rộng sẽ bị tăng lên 30px x3 nên 3 khối sẽ không còn nằm trên 1 hàng nữa do không cùng độ rộng với lớp cha
+    khi set margin thêm 30px mà muốn chúng vẫn nằm trên 1 hàng và bằng độ rộng lớp cha thì phải sử dụng thuộc tính calc cho width để trừ đi margin*/
+}
+
+.tour-content {
+    /* padding: top right bottom left*/
+    padding: 20px 20px 14px 20px;
+}
+
+.tour-tittle {
+    /* background-color: red; */
+    margin-bottom: 10px;
+    color: #23262f;
+    font-weight: 500;
+    padding-bottom: 10px;
+    font-size: 18px;
+    /* line-height: 28px; */
+    line-height: 1.556;
+}
+
+.tour-rating {
+    margin-bottom: 20px;/*ở đây có thể viết mb20 và enter sẽ tự ra được dòng này*/
+}
+.tour-duration, /*có thể chỉnh 1 lần nhiều class chỉ với một đoạn code  chung thì ta thêm dấu , (phẩy) để nối ba class với nhau và áp dụng chúng*/
+.tour-review-count {
+    color: #353945;
+}
+
+.tour-button {
+    font-size: 14px;/*kích cỡ của chữ*/
+    font-weight: 500;/*độ đậm nhạt của chữ*/
+    color: white;/*màu chữ*/
+    padding: 8px 17px;
+    background-color: #3b71fe;/*màu nền*/
+    text-decoration: none;/*gạch dưới của thẻ có link như thẻ a, nên để none nếu không muốn có gạch chân ở dưới link*/
+    border-radius: 8px;/*bo tròn góc*/
+    line-height: 17px;
+    display: inline-block;
+}
+
+.tour-image {
+    border-radius: 10px 10px 0 0;
+    width: 100%;/*độ rộng nếu dùng % thì nó sẽ lấy % độ rộng của lớp cha gần nhất chứa nó, ở đây là lớp tour-top mà do tour-top kế thừa từ lớp cha là tour là 33,33% nên 100% ở đây sẽ bằng với lớp cha là 33.33%*/
+    height: 239px;
+    object-fit: cover;/*hay được sử dụng cho hình ảnh, mục đích là: lấy ví dụ như hình ảnh nhỏ, nhưng khối chứa nó to hơn cái hình, mà chúng ta muốn cái hình nó to ra bằng với khối và ảnh không bị méo do bị kéo giãn ra thì ta dùng lệnh này.*/
+}
+
+.tour-list-container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.tour-list {
+    
+    margin-left: -30px;/*sử dụng chỉ số khác sẽ ảnh hưởng tới margin: 0 auto; nên phải tạo 1 div khác bọc div tour-list này lại*/
+    display: flex;/*hiển thị linh hoạt*/
+    flex-direction: row;/*hiển thị của flex mặc định là ngang(row), có thể chỉnh lại là dọc(column) */
+    align-items: stretch;/*align-items mặc định là stretch, tác dụng của dòng này là kéo các cột cao bằng nhau khi dùng flex.
+    nếu flex set là row thì làm các cột có chiều cao bằng nhau.
+    nếu flex set là column thì làm cho các cột có chiều rộng bằng nhau.
+    (dòng này có thể hiểu nôm na là ví dụ nếu có 3 cột có nội dung giống nhau nhưng có 1 cột có nội dung ít hơn 2 khối còn lại thì chiều cao/độ rộng của cột đó vẫn sẽ bằng với chiều cao/độ rộng của cột còn lại(cột ở đây tạm hiểu là chiều cao/độ rộng của khối)) */
+    flex-wrap: wrap;
+    justify-content: center;
+}
