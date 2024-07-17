@@ -87,12 +87,20 @@ h4 {
     padding: 8px 16px;
 }
 
-.container-content {
-    float: inline-start;
-    
+.main-content {
+    margin-left: 300px;
 }
 
-.tittle-container {
+.container-content {
+    padding: 0.15px 16px;
+}
+
+.h1-characters {
+    max-width: 1141px;
+    height: 54px;
+}
+
+.b-characters {
     width: 199px;
     height: 42px;
 }
@@ -101,3 +109,20 @@ h4 {
     
 }
 
+.span-fillter {
+    margin-right: 20px;
+}
+
+.button-container {
+    padding: 8px 16px;
+}
+
+.button-fillters {
+    margin: 16px 0;
+    padding: 16px 0;
+}
+
+.row-characters {
+    max-width: 1173px;
+    
+}
