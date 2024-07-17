@@ -19,3 +19,8 @@ _justify-content: `center`;_ toàn bộ phần tử bên trong 1 khối sẽ n�
                           `space-around` chia đều 2 bên sao cho bên trái, phải, ở giữa đều có khoảng trống, nhưng khoảng trống ở giữa sẽ lớn hơn khoảng trống 2 bên
                           `space-evenly` chia đều khoảng trống sao cho cả ba khoảng trống trái,phải,giữa đều bằng nhau.
 xem ví dụ ở folder (cho các phần tử bên trong 1 khối nằm đều về phía nào)
+-_overflow: `hidden`;_ : ẩn các thành phần bị tràn ra ngoài của 1 khối.
+- _text-overflow: `ellipsis`;_ : cho các chữ nào quá dài và không đủ chỗ để hiển thị hết tất cả thì sẽ hiện dấu ba chấm.
+- _display: `-webkit-box`;_ : combo webkit này là để hiển thị 
+    _-webkit-line-clamp: `2`_;
+    _-webkit-box-orient: `vertical`;_
