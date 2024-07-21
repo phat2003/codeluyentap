@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
+    font-family: "Raleway", sans-serif;
+    line-height: 22.5px;
 }
 
 body {
-    font-family: "Raleway", sans-serif;
+    
     font-weight: 400;
     background-color: #f1f1f1;
 }
@@ -38,7 +39,7 @@ h1 {
     width: 300px;
     height: 236px;
     font-size: 15px;
-    line-height: 22.5px;
+    
     padding: 0 16px;
 }
 
@@ -87,11 +88,13 @@ h4 {
     padding: 8px 16px;
 }
 
-.main-content {
+.box-content {
     margin-left: 300px;
 }
 
-.container-content {
+.container {
+    font-size: 15px;
+    
     padding: 0.15px 16px;
 }
 
@@ -105,24 +108,54 @@ h4 {
     height: 42px;
 }
 
-.header-container {
-    
+.button-bar {
+    max-width: 1141px;
+    min-height: 76px;
+    margin: 16px 0;
+    padding: 16px 0;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-color: black;
 }
 
 .span-fillter {
     margin-right: 20px;
+    margin-bottom: 16px;
 }
 
-.button-container {
+.buttons {
+    max-height: 39px;
     padding: 8px 16px;
-}
-
-.button-fillters {
-    margin: 16px 0;
-    padding: 16px 0;
+    font-size: 15px;
+    
+    /* text-align: center; */
 }
 
 .row-characters {
     max-width: 1173px;
+    
+}
+
+.box-character {
+    max-width: 386px;
+    padding: 0 8px;
+    
+}
+
+.img-characters {
+    width: 370px;
+    height: 246px;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.container-characters {
+    width: 370px;
+    height: 135px;
+    padding: 15px 16px;
+    background-color: #fff;
     
 }

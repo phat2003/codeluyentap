@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .row-characters {
+    max-width: 1173px;
+    display: flex;   
+    background-color: black;
+}
+        .box-character {
+    max-width: 386px;
+    padding: 0 8px;
+}
+
+.img-characters {
+    width: 370px;
+    height: 246px;
+    display: inline-block;
+    vertical-align: bottom;/*được sử dụng để căn chỉnh dọc của một phần tử, Cụ thể, nó căn chỉnh phần tử hoặc nội dung của phần tử đó xuống dưới cùng của dòng hoặc ô chứa nó.. Nếu bỏ dòng này thì giữa ảnh và khối container bên dưới sẽ có 1 khoảng cách không rõ là 6px, nên có thể sử dụng lệnh này để fix (xoá khoảng cách không rõ đó) và cho ảnh + khối container dính sát với nhau.*/
+}
+
+.container-characters {
+    width: 370px;
+    height: 135px;
+    padding: 15px 16px;
+    background-color: #fff;
+}
+    </style>
+</head>
+<body>
+    <div class="row-characters">
+    <div class="box-character">
+        <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="image-character" class="img-characters">
+        <div class="container-characters">
+            <p><b>Sonkaku</b></p>
+        </div>
+    </div>
+    <div class="box-character">
+        <img src="https://www.w3schools.com/w3images/mountains.jpg" alt="image-character" class="img-characters">
+        <div class="container-characters">
+            <p><b>Sonkaku</b></p>
+        </div>
+    </div>
+</div>
+</body>
+</html>
