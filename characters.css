@@ -4,6 +4,7 @@
     box-sizing: border-box;
     font-family: "Raleway", sans-serif;
     line-height: 22.5px;
+    font-size: 15px;
 }
 
 body {
@@ -38,7 +39,7 @@ h1 {
 .container-sidebar {
     width: 300px;
     height: 236px;
-    font-size: 15px;
+    
     
     padding: 0 16px;
 }
@@ -93,7 +94,7 @@ h4 {
 }
 
 .container {
-    font-size: 15px;
+    
     
     padding: 0.15px 16px;
 }
@@ -129,33 +130,42 @@ h4 {
 .buttons {
     max-height: 39px;
     padding: 8px 16px;
-    font-size: 15px;
+    
     
     /* text-align: center; */
 }
 
 .row-characters {
     max-width: 1173px;
-    
+    min-height: 398px;
+    height: calc(398px - 1px);
+    /* display: flex; */
+    display: inline-flex;
+    padding: 0 8px;
 }
 
 .box-character {
     max-width: 386px;
+    min-height: 382px;
     padding: 0 8px;
     
 }
 
 .img-characters {
-    width: 370px;
-    height: 246px;
+    max-width: 370px;
+    max-height: 246px;
     display: inline-block;
     vertical-align: bottom;
 }
 
 .container-characters {
-    width: 370px;
-    height: 135px;
+    max-width: 370px;
+    min-height: 135px;
     padding: 15px 16px;
     background-color: #fff;
-    
+    column-gap: 15px;
+}
+
+.name-characters {
+    margin-bottom: 15px;
 }

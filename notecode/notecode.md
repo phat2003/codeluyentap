@@ -27,4 +27,7 @@ xem ví dụ ở folder (cho các phần tử bên trong 1 khối nằm đều v
     _text-overflow: `ellipsis`;_ : cho các chữ nào quá dài và không đủ chỗ để hiển thị hết tất cả thì sẽ hiện dấu ba chấm.
     _word-break: `break-word`;_ chỗ này không đủ chỗ thì nó sẽ xuống dòng nhưng không xuống dòng theo chỗ không đủ mà sẽ xuống dòng theo từ không đủ.
 (nguyên 1 combo display: `-webkit-box` trên thì chỉ cần cài evondev snippets nhập text-truncate và enter là ra).
-
+- _gap_ : giống margin là tạo khoảng cách giữa các phần tử với nhau nhưng gap nếu set ở lớp nào thì sẽ tự chèn 1 khoảng trống vào giữa toàn bộ các phần tử trong lớp đó.
+column-gap: 30px; chèn khoảng trống giữa các phần tử theo hàng ngang
+row-gap: 30px; chèn khoảng trống giữa các phần tử theo hàng dọc
+gap: 30px; chèn khoảng trống giữa các phần tử cả ngang lẫn dọc
