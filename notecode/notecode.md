@@ -32,5 +32,6 @@ column-gap: 30px; chèn khoảng trống giữa các phần tử theo hàng ngan
 row-gap: 30px; chèn khoảng trống giữa các phần tử theo hàng dọc
 gap: 30px; chèn khoảng trống giữa các phần tử cả ngang lẫn dọc
 - _display_ : nôm na cách mà các khối và nội dung hiển thị
+các thuộc tính của _display_:
 `flex`: hiển thị nội dung 1 cách linh hoạt
 `inline-flex`: hiển thị nội dung trên 1 dòng 1 cách linh hoạt
