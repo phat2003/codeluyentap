@@ -1,5 +1,8 @@
-mixin buttonfilter(buttonfilter)
-    button.buttons #{buttonfilter}
+mixin buttonssidebar(linkbutton, textbutton)
+    a.buttons-sidebar(href=linkbutton) #{textbutton}
+
+mixin buttonsfilter(buttonfilter)
+    button.buttons-filter #{buttonfilter}
 
 mixin boxchars(srcimgchar, bnamechar, contentchar)
     .box-character

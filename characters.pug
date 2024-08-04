@@ -16,8 +16,8 @@ body
       h4
         b.title-web ZZZ Book
       p Made by Team Espost gaming
-    a.button-home(href='./index.html') Home
-    a.button-characters(href='./characters.html') Characters
+    +buttonssidebar ('./index.html', "Home")
+    +buttonssidebar ('./characters.html', "Characters")
     .panel
   .box-content
     .container
@@ -26,10 +26,10 @@ body
           b.b-characters Characters
         .button-bar
           span.span-fillter Fillter: 
-          +buttonfilter ("ALL")
-          +buttonfilter ("ALL")
-          +buttonfilter ("ALL")
-          +buttonfilter ("ALL")
+          +buttonsfilter ("ALL")
+          +buttonsfilter ("ALL")
+          +buttonsfilter ("ALL")
+          +buttonsfilter ("ALL")
     .row-characters
       +boxchars ('https://www.w3schools.com/w3images/mountains.jpg', "Sonkaku", "chi viện")
       +boxchars ('https://www.w3schools.com/w3images/mountains.jpg', "Sonkaku", "chi viện")
