@@ -1,0 +1,2 @@
+- _display: `flex`;_ hiển thị nội dung 1 cách linh hoạt
+- _flex-direction: row_;/*hiển thị của flex mặc định là ngang(row), có thể chỉnh lại là dọc(column) */

@@ -1,0 +1,10 @@
+mixin buttonfilter(buttonfilter)
+    button.buttons #{buttonfilter}
+
+mixin boxchars(srcimgchar, bnamechar, contentchar)
+    .box-character
+        img.img-characters(src=srcimgchar, alt='image-character')
+        .container-characters
+          p.name-characters
+            b.namechar #{bnamechar}
+          p #{contentchar}

@@ -1,0 +1,40 @@
+include ./pug/mixins.pug
+
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(name='viewport', content='width=device-width, initial-scale=1.0')
+  title Book ZZZ
+  link(rel='preconnect', href='https://fonts.googleapis.com')
+  link(rel='preconnect', href='https://fonts.gstatic.com', crossorigin='')
+  link(href='https://fonts.googleapis.com/css2?family=Raleway:ital@0;1&display=swap', rel='stylesheet')
+  link(rel='stylesheet', href='./characters.css')
+body
+  nav.sidebar
+    .container-sidebar
+      img.icon-web(src='./images/Agent_Soukaku_Icon.webp', alt='sonkaku-icon')
+      h4
+        b.title-web ZZZ Book
+      p Made by Team Espost gaming
+    a.button-home(href='./index.html') Home
+    a.button-characters(href='./characters.html') Characters
+    .panel
+  .box-content
+    .container
+      header
+        h1.h1-characters
+          b.b-characters Characters
+        .button-bar
+          span.span-fillter Fillter: 
+          +buttonfilter ("ALL")
+          +buttonfilter ("ALL")
+          +buttonfilter ("ALL")
+          +buttonfilter ("ALL")
+    .row-characters
+      +boxchars ('https://www.w3schools.com/w3images/mountains.jpg', "Sonkaku", "chi viện")
+      +boxchars ('https://www.w3schools.com/w3images/mountains.jpg', "Sonkaku", "chi viện")
+      +boxchars ('https://www.w3schools.com/w3images/mountains.jpg', "Sonkaku", "chi viện")
+    .row-characters
+      +boxchars ('https://www.w3schools.com/w3images/mountains.jpg', "Sonkaku", "chi viện")
+      +boxchars ('https://www.w3schools.com/w3images/mountains.jpg', "Sonkaku", "chi viện")
+      +boxchars ('https://www.w3schools.com/w3images/mountains.jpg', "Sonkaku", "chi viện")

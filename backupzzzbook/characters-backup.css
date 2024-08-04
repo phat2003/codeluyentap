@@ -149,7 +149,7 @@ h4 {
     max-width: 386px;
     min-height: 382px;
     padding: 0 8px;
-    position: relative;
+    
 }
 
 .img-characters {
@@ -169,11 +169,4 @@ h4 {
 
 .name-characters {
     margin-bottom: 15px;
-    position: absolute;
-    top: 210px;
-    left: 170px;
-}
-
-.namechar {
-    color: white;
 }
