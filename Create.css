@@ -90,8 +90,46 @@ h4 {
     padding: 8px 16px;
 } */
 
+.box-content {
+    
+    position: absolute;
+    left: 300px;
+    top: 0;
+    border: 1px solid red;
+    width: 100vw;
+    /* margin-left: 300px; */
+    padding-left: 30px;
+    
+}
 
+/* .label-name-product {
+    width: 58px;
+    display: block;
+}
 
+.input-name-product {
+    width: calc(100vw - 80%);
+    
+}
+
+.label-quantity-product {
+    width: 58px;
+    display: block;
+}
+
+.input-quantity-product {
+    width: calc(100vw - 80%);
+    margin-bottom: 20px;
+} */
+.label {
+    width: 58px;
+    display: block;
+}
+
+.input {
+    width: calc(100vw - 80%);
+    margin-bottom: 10px;
+}
 
 
 

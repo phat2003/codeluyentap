@@ -90,8 +90,11 @@ h4 {
     padding: 8px 16px;
 } */
 
-
-
+.box-content {
+    position: absolute;
+    left: 300px;
+    top: 0;
+}
 
 
 
