@@ -1,0 +1,7 @@
+.sidebar {
+    position: fixed;
+    max-height: 100vh;
+    z-index: 1000;
+}
+
+/* có ba thuộc tính này thì thẻ html chứa css này sẽ đứng im và các trang còn lại có thể trượt lên xuống được. */
